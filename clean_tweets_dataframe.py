@@ -34,7 +34,7 @@ class Clean_Tweets:
         """
         convert column to datetime
         """
-        ----
+        df['col'] = pd.to_datetime(df['col'])
 
         ----
 
